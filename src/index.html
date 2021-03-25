@@ -14,6 +14,7 @@
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       class="form"
+      onsubmit="onSubmit()"
     >
       <fieldset class="fieldset">
         <legend>Personal information</legend>
@@ -97,6 +98,7 @@
           class="input"
           type="radio"
           name="no"
+          value="no"
           id="no"
         >
         <label for="no">No</label>
@@ -164,7 +166,6 @@
       <input
         type="submit"
         value="Submit"
-        onsubmit="onSubmit()"
       >
     </form>
 
