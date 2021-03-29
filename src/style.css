@@ -1,8 +1,5 @@
-.form {
-  font-weight: 400;
-}
-
-.input {
+.input,
+.label {
   margin-bottom: 10px;
 
 }
@@ -13,9 +10,8 @@
 
 .label {
   display: inline-block;
-  margin-bottom: 10px;
 }
 
-.last {
+fieldset > :last-child {
   margin-top: 10px;
 }

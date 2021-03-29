@@ -18,22 +18,22 @@
     >
       <fieldset class="fieldset">
         <legend>Personal information</legend>
-        <label for="Lname">Surname:</label>
+        <label for="surname">Surname:</label>
         <input
          class="input"
           type="text"
           name="name"
-          id="Lname"
-          autocomplete="disabled"
+          id="surname"
+          autocomplete="off"
         >
         <br>
-        <label for="Fname">Name:</label>
+        <label for="firstname">Name:</label>
         <input
           class="input"
           type="text"
           name="name"
-          id="Fname"
-          autocomplete="disabled"
+          id="firstname"
+          autocomplete="off"
         >
         <br>
         <label for="age">How old are You?</label>
@@ -90,14 +90,14 @@
         <input
           class="input"
           type="radio"
-          name="yes"
+          name="cats"
           id="yes"
         >
         <label for="yes">Yes</label>
         <input
           class="input"
           type="radio"
-          name="no"
+          name="cats"
           value="no"
           id="no"
         >
@@ -130,7 +130,6 @@
           <option value="BMW">BMW</option>
           <option value="audi">Audi</option>
           <option value="Lada">Lada</option>
-          <option value=""></option>
         </select>
         <br>
         <label for="rating">How do you rate our work?</label>
@@ -140,6 +139,8 @@
           name="rating"
           id="rating"
           value="0"
+          min="0"
+          max="100"
         >
       </fieldset>
       <fieldset class="fieldset">
@@ -155,7 +156,6 @@
         <br>
         <label for="options">Would you recommend us?</label>
         <select
-          class="last"
           name="options"
           id="options"
         >
