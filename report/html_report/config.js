@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Entire_document-0.png",
-        "test": "..\\bitmaps_test\\20210329-165826\\Entire_document-0.png",
+        "test": "..\\bitmaps_test\\20210329-195604\\Entire_document-0.png",
         "selector": "document",
         "fileName": "Entire_document-0.png",
         "label": "Entire document",
@@ -21,16 +21,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "2.13",
-          "analysisTime": 107
+          "analysisTime": 101
         },
-        "diffImage": "..\\bitmaps_test\\20210329-165826\\failed_diff_Entire_document-0.png"
+        "diffImage": "..\\bitmaps_test\\20210329-195604\\failed_diff_Entire_document-0.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Form-0.png",
-        "test": "..\\bitmaps_test\\20210329-165826\\Form-0.png",
+        "test": "..\\bitmaps_test\\20210329-195604\\Form-0.png",
         "selector": "form",
         "fileName": "Form-0.png",
         "label": "Form",
@@ -44,19 +44,19 @@ report({
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -2
+            "height": 2
           },
           "misMatchPercentage": "2.29",
-          "analysisTime": 105
+          "analysisTime": 95
         },
-        "diffImage": "..\\bitmaps_test\\20210329-165826\\failed_diff_Form-0.png"
+        "diffImage": "..\\bitmaps_test\\20210329-195604\\failed_diff_Form-0.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Fieldset_tag-0.png",
-        "test": "..\\bitmaps_test\\20210329-165826\\Fieldset_tag-0.png",
+        "test": "..\\bitmaps_test\\20210329-195604\\Fieldset_tag-0.png",
         "selector": "fieldset",
         "fileName": "Fieldset_tag-0.png",
         "label": "Fieldset tag",
@@ -80,7 +80,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Fieldset_tag-1.png",
-        "test": "..\\bitmaps_test\\20210329-165826\\Fieldset_tag-1.png",
+        "test": "..\\bitmaps_test\\20210329-195604\\Fieldset_tag-1.png",
         "selector": "fieldset.__n1",
         "fileName": "Fieldset_tag-1.png",
         "label": "Fieldset tag",
@@ -97,7 +97,7 @@ report({
             "height": 0
           },
           "misMatchPercentage": "0.02",
-          "analysisTime": 40
+          "analysisTime": 52
         }
       },
       "status": "pass"
@@ -105,7 +105,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Fieldset_tag-2.png",
-        "test": "..\\bitmaps_test\\20210329-165826\\Fieldset_tag-2.png",
+        "test": "..\\bitmaps_test\\20210329-195604\\Fieldset_tag-2.png",
         "selector": "fieldset.__n2",
         "fileName": "Fieldset_tag-2.png",
         "label": "Fieldset tag",
@@ -122,16 +122,16 @@ report({
             "height": -2
           },
           "misMatchPercentage": "1.46",
-          "analysisTime": 56
+          "analysisTime": 50
         },
-        "diffImage": "..\\bitmaps_test\\20210329-165826\\failed_diff_Fieldset_tag-2.png"
+        "diffImage": "..\\bitmaps_test\\20210329-195604\\failed_diff_Fieldset_tag-2.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Fieldset_tag-3.png",
-        "test": "..\\bitmaps_test\\20210329-165826\\Fieldset_tag-3.png",
+        "test": "..\\bitmaps_test\\20210329-195604\\Fieldset_tag-3.png",
         "selector": "fieldset.__n3",
         "fileName": "Fieldset_tag-3.png",
         "label": "Fieldset tag",
@@ -155,7 +155,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Submit_button-0.png",
-        "test": "..\\bitmaps_test\\20210329-165826\\Submit_button-0.png",
+        "test": "..\\bitmaps_test\\20210329-195604\\Submit_button-0.png",
         "selector": "[type=\"submit\"]",
         "fileName": "Submit_button-0.png",
         "label": "Submit button",
@@ -179,7 +179,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Email_with_placeholder-0.png",
-        "test": "..\\bitmaps_test\\20210329-165826\\Email_with_placeholder-0.png",
+        "test": "..\\bitmaps_test\\20210329-195604\\Email_with_placeholder-0.png",
         "selector": "[type=\"email\"][placeholder]",
         "fileName": "Email_with_placeholder-0.png",
         "label": "Email with placeholder",
@@ -203,7 +203,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Number_with_value-0.png",
-        "test": "..\\bitmaps_test\\20210329-165826\\Number_with_value-0.png",
+        "test": "..\\bitmaps_test\\20210329-195604\\Number_with_value-0.png",
         "selector": "[type=\"number\"][value]",
         "fileName": "Number_with_value-0.png",
         "label": "Number with value",
